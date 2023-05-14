@@ -1,6 +1,9 @@
 "use client";
 import React, { FC, useState } from "react";
 import Icons from "./Icons";
+import { MdCancel } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
+import Image from "next/image";
 
 interface HeaderProps {}
 
@@ -76,8 +79,96 @@ const Header: FC<HeaderProps> = ({}) => {
                   className="gala-menu__toggle relative z-50 sm:block md:hidden text-white focus:outline-none"
                   data-v-0afaa9ba=""
                 >
-                  {}
+                  {isOpen ? (
+                    <MdCancel
+                      className=" w-24 h-10"
+                      onClick={() => setIsOpen(!isOpen)}
+                    />
+                  ) : (
+                    <GiHamburgerMenu
+                      className=" w-24 h-10"
+                      onClick={() => setIsOpen(!isOpen)}
+                    />
+                  )}
                 </div>
+                {isOpen && (
+                  <ul
+                    className="gala-nav__list transition bg-black"
+                    data-v-0afaa9ba=""
+                  >
+                    <li className="gala-nav__list-item" data-v-0afaa9ba="">
+                      <a
+                        href="https://app.gala.games/"
+                        target="_blank"
+                        className="mr-2"
+                        data-v-0afaa9ba=""
+                        rel="noopener"
+                      >
+                        Games
+                      </a>
+                      <Image
+                        src="/link-arrow.svg"
+                        data-v-0afaa9ba=""
+                        alt=""
+                        width={100}
+                        height={100}
+                      />
+                    </li>
+                    <li className="gala-nav__list-item" data-v-0afaa9ba="">
+                      <a
+                        href="https://music.gala.com/"
+                        target="_blank"
+                        className="mr-2"
+                        data-v-0afaa9ba=""
+                        rel="noopener"
+                      >
+                        Music
+                      </a>
+                      <Image
+                        src="/link-arrow.svg"
+                        data-v-0afaa9ba=""
+                        alt=""
+                        width={100}
+                        height={100}
+                      />
+                    </li>
+                    <li className="gala-nav__list-item" data-v-0afaa9ba="">
+                      <a
+                        href="https://film.gala.com/"
+                        target="_blank"
+                        className="mr-2"
+                        data-v-0afaa9ba=""
+                        rel="noopener"
+                      >
+                        Film
+                      </a>
+                      <Image
+                        src="/link-arrow.svg"
+                        data-v-0afaa9ba=""
+                        alt=""
+                        width={100}
+                        height={100}
+                      />
+                    </li>
+                    <li className="gala-nav__list-item" data-v-0afaa9ba="">
+                      <a href="/galaverse" data-v-0afaa9ba="">
+                        Galaverse
+                      </a>
+                    </li>
+                    <li
+                      className="gala-nav__list-cta md:hidden"
+                      data-v-0afaa9ba=""
+                    >
+                      <a
+                        className="text-black"
+                        href="/sign-up"
+                        data-v-0afaa9ba=""
+                      >
+                        <button data-v-0afaa9ba="">Sign Up</button>
+                      </a>
+                    </li>
+                  </ul>
+                )}
               </div>
             </div>
             <div
