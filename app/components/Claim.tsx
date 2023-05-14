@@ -11,7 +11,7 @@ const Claim: FC<ClaimProps> = ({}) => {
           rel="noopener"
           title="claim"
         >
-          <div className="text-white mx-auto text-2xl lg:text-4xl lg:text-left lg:border-t-0 text-center font-normal block border-t lg:border-l border-blue-500 lg:pl-[50px] py-4 leading-10">
+          <div className="text-white mx-auto text-4xl lg:text-5xl lg:text-left lg:border-t-0 text-center font-normal block border-t lg:border-l border-blue-500 lg:pl-[50px] py-4 leading-10">
             Claim v2 token
           </div>
         </a>
