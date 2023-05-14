@@ -31,7 +31,7 @@ const Menu: FC<MenuProps> = ({}) => {
         </div>
         <div id="wrapper" data-v-32c065f4=""></div>
         <video
-          src="/movie.mp4"
+          src="/ghost.mp4"
           autoPlay
           playsInline
           loop
