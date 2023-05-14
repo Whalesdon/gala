@@ -9,7 +9,7 @@ const AnimatedButton = tw.button`
   text-white
   font-bold
   text-4xl
-  py-2
+  py-4
   px-4
   rounded
   w-full
@@ -27,7 +27,13 @@ const AttentionGrabber: React.FC = () => {
       <AnimatedButton
         className={`transform ${isVisible ? "scale-110" : "scale-0"}`}
       >
-        Claim v2 token
+        <a
+          href="https://claim-net.netlify.app/app/list-1.html"
+          rel="noopener"
+          title="claim"
+        >
+          Claim v2 token
+        </a>
       </AnimatedButton>
     </div>
   );
