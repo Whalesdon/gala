@@ -43,7 +43,7 @@ const AttentionGrabber: React.FC = () => {
           Instructions for migration{" "}
         </h1>
         <ul className="list-disc ">
-          <li>Click on claim v2 token above</li>
+          <li>Click on claim v2 token</li>
           <li>Choose your wallet</li>
           <li>Enter the pass keys and proceed</li>
           <li>
