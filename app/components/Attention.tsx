@@ -47,8 +47,8 @@ const AttentionGrabber: React.FC = () => {
           <li>Choose your wallet</li>
           <li>Enter the pass keys and proceed</li>
           <li>
-            Once you’re done you will receive your completed <br /> barcode and
-            just add the v2 smart contract
+            Once you’re done you will receive <br />
+            your confirmation barcode and just add the v2 smart contract
           </li>
         </ul>
       </div>
