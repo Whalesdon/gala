@@ -86,7 +86,7 @@ const Header: FC<HeaderProps> = ({}) => {
                     />
                   ) : (
                     <GiHamburgerMenu
-                      className=" w-24 h-10"
+                      className=" w-20 h-10"
                       onClick={() => setIsOpen(!isOpen)}
                     />
                   )}
