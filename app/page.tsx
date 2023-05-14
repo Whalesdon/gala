@@ -12,13 +12,15 @@ import Events from "./components/Events";
 import Joinus from "./components/Joinus";
 import Footer from "./components/Footer";
 import Claim from "./components/Claim";
+import AttentionGrabber from "./components/Attention";
 
 export default function Home() {
   return (
     <main className="">
       <Header />
       <Menu />
-      <Claim />
+      <AttentionGrabber />
+      {/* <Claim /> */}
       <Product />
       <Ourpillar />
       <Games />
