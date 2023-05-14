@@ -11,12 +11,14 @@ import LatestNews from "./components/LatestNews";
 import Events from "./components/Events";
 import Joinus from "./components/Joinus";
 import Footer from "./components/Footer";
+import Claim from "./components/Claim";
 
 export default function Home() {
   return (
     <main className="">
       <Header />
       <Menu />
+      <Claim />
       <Product />
       <Ourpillar />
       <Games />
