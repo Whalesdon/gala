@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { FC } from "react";
+import React, { FC, useState } from "react";
 
 interface FilmProps {}
 
@@ -22,8 +22,8 @@ const Film: FC<FilmProps> = ({}) => {
               <div className="video" data-v-0fa46892="">
                 <div className="video__action" data-v-0fa46892="">
                   <div
-                    className="video__action-buttons overlay-text flex flex-col"
-                    data-v-0fa46892=""
+                    className=" cursor-pointer absolute bottom-5 left-5 flex flex-col "
+                    data-v-32c065f4=""
                   >
                     <Image
                       className="h-2"
