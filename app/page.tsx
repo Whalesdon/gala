@@ -7,6 +7,10 @@ import Games from "./components/Games";
 import Music from "./components/Music";
 import Film from "./components/Film";
 import Latest from "./components/Latest";
+import LatestNews from "./components/LatestNews";
+import Events from "./components/Events";
+import Joinus from "./components/Joinus";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +23,10 @@ export default function Home() {
       <Music />
       <Film />
       <Latest />
+      {/* <LatestNews /> */}
+      <Events />
+      <Joinus />
+      <Footer />
     </main>
   );
 }

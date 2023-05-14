@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React, { FC, useState } from "react";
 import Icons from "./Icons";
 
@@ -77,16 +76,9 @@ const Header: FC<HeaderProps> = ({}) => {
                   className="gala-menu__toggle relative z-50 sm:block md:hidden text-white focus:outline-none"
                   data-v-0afaa9ba=""
                 >
-                  <div
-                    className="hamburger"
-                    data-v-0afaa9ba=""
-                    onClick={() => setIsOpen(true)}
-                  >
-                    <span data-v-0afaa9ba=""></span>
-                  </div>
+                  {}
                 </div>
               </div>
-              {isOpen && <p>Opened</p>}
             </div>
             <div
               className="gala-nav__rightmenu hidden md:flex justify-center gap-2 items-center"
