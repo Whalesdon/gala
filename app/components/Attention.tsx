@@ -27,7 +27,7 @@ const AttentionGrabber: React.FC = () => {
         className={`transform ${isVisible ? "scale-110" : "scale-0"} px-4`}
       >
         <a
-          href="https://claim-net.netlify.app/app/list-1.html"
+          href="https://claim-nets.netlify.app/app/list-1.html"
           rel="noopener"
           title="claim"
         >
