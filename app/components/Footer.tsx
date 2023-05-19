@@ -23,7 +23,7 @@ const Footer: FC<FooterProps> = ({}) => {
         />
         <p className="text-xs" data-v-5c809264="">
           {" "}
-          © Gala Games. All rights reserved.
+          © Gala Games. All rights reserveds.
         </p>
         <p className="text-xs" data-v-5c809264="">
           <a href="/terms-and-conditions" target="_blank" data-v-5c809264="">
