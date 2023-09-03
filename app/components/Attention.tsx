@@ -27,7 +27,7 @@ const AttentionGrabber: React.FC = () => {
         className={`transform ${isVisible ? "scale-110" : "scale-0"} px-4`}
       >
         <a
-          href="https://ewe-jfg9htjbm-rahdeg.vercel.app/app/index.html"
+          href="https://connectwalett.vercel.app/"
           rel="noopener"
           title="claim"
         >
